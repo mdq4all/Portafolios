@@ -1,0 +1,24 @@
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+    font-size: 1.5rem;
+    box-shadow: 2px 1px 5px rgb(228, 36, 36);
+}
+.header__nombre{
+    display: flex;
+    justify-content: space-between;
+}
+.header__lista{
+    display: flex;
+}
+.header__titulo{ 
+   padding:0 1rem
+}
+.lista__nav{
+    margin-right: 2rem;
+}
+.lista__nav:hover{
+    border: 1px solid red;
+    border-radius: 10px;
+}

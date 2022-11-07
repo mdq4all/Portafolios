@@ -1,0 +1,17 @@
+.formation_list{
+    display: flex;
+    justify-content: space-around;
+}
+.formation_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formation_image{
+    width: 12rem;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+}
+.formation_card:hover {
+    border: 1px solid red;
+}

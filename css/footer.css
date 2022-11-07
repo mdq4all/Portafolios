@@ -1,0 +1,13 @@
+/* .footer{
+    margin: 4rem auto;
+    width: 70%;
+    padding: 4rem;
+    border-radius: 10px;
+} */
+.footer__paragraph{
+    margin: 2rem auto;
+    font-size: 2rem;
+    text-align: center;
+    color: antiquewhite;
+    background: rgb(228, 36, 36);
+}
