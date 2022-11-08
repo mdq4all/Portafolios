@@ -22,3 +22,31 @@
     border: 1px solid red;
     border-radius: 10px;
 }
+@media screen and (max-width: 768px) {
+    .header__container{
+       flex-direction: column;
+    }
+    .fa-solid{
+        display: none;
+    }
+    .header__nombre{
+        justify-content: center;   
+        padding-bottom: 2rem;
+    }
+    .header__lista{
+        justify-content: space-between;
+    }
+   .lista__nav{
+        margin: 0;
+        width: 100%;
+   }
+}
+@media screen and (max-width: 360px) {
+    .header__lista{
+        display: none;
+    }
+    .header__nombre{
+        padding-bottom: 0;
+    }
+    
+}

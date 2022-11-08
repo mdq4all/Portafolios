@@ -19,3 +19,13 @@
 .skills__card:hover{
     border: 1px solid red;
 }
+@media screen and (max-width: 768px) {
+    .skills__lista{
+    flex-wrap: wrap;    
+   }
+   .skills__card{
+    width: 5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+   }
+}

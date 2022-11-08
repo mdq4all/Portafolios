@@ -34,3 +34,13 @@
 .hover:hover{
   border: 2px solid rgb(228, 36, 36);
 }
+@media screen and (max-width: 768px) {
+  .input__contact{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .button{
+    width: 100%;
+  }
+}

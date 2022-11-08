@@ -14,3 +14,11 @@ body {
     border-radius: 10px;
     box-shadow: 10px 5px 10px rgb(228, 36, 36);
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin: 2rem auto;
+        width: 75%;
+        padding: 1rem;
+    }
+}
